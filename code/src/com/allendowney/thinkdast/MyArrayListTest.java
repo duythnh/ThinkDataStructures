@@ -67,13 +67,13 @@ public class MyArrayListTest {
 		assertThat(mylist.size(), is(4));
 
 		try {
-		    mylist.set(-1, 0);
-		    fail();
+			mylist.set(-1, 0);
+			fail();
 		} catch (IndexOutOfBoundsException e) {} // good
 
 		try {
-		    mylist.set(4, 0);
-		    fail();
+			mylist.set(4, 0);
+			fail();
 		} catch (IndexOutOfBoundsException e) {} // good
 
 		mylist.add(0, 6);
@@ -257,15 +257,15 @@ public class MyArrayListTest {
 		//System.out.println(Arrays.toString(mal.toArray()));
 
 		try {
-		    mylist.set(-1, 0);
-		    fail();
+			mylist.set(-1, 0);
+			fail();
 		} catch (IndexOutOfBoundsException e) {} // good
 
 		try {
-		    mylist.set(4, 0);
-		    fail();
+			mylist.set(4, 0);
+			fail();
 		} catch (IndexOutOfBoundsException e) {} // good
-}
+	}
 
 	/**
 	 * Test method for {@link MyArrayList#size()}.
