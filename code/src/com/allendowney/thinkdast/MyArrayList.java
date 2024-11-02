@@ -10,6 +10,7 @@ import java.util.ListIterator;
  * @author downey
  * @param <T>
  *
+ * 11/3/2024:12:31 AM.
  */
 public class MyArrayList<T> implements List<T> {
 	int size;                    // keeps track of the number of elements

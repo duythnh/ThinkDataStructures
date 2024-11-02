@@ -15,6 +15,7 @@ import org.junit.Test;
 /**
  * @author downey
  *
+ * all tests pass.
  */
 public class MyArrayListTest {
 
